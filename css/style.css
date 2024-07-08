@@ -25,14 +25,14 @@ body.offcanvas {
 }
 
 a {
-  color: #66D37E;
+  color: #e94848;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover {
   text-decoration: none !important;
-  color: #66D37E !important;
+  color: #e94848 !important;
 }
 
 p, ul, ol {
@@ -55,17 +55,17 @@ figure {
 
 ::-webkit-selection {
   color: #fcfcfc;
-  background: #66D37E;
+  background: #e94848;
 }
 
 ::-moz-selection {
   color: #fcfcfc;
-  background: #66D37E;
+  background: #e94848;
 }
 
 ::selection {
   color: #fcfcfc;
-  background: #66D37E;
+  background: #e94848;
 }
 
 #header {
@@ -109,8 +109,6 @@ figure {
   bottom: 0;
   right: 0;
   z-index: 1;
-  background: rgba(66, 64, 64, 0.9);
-  background: rgba(0, 0, 0, 0.8);
 }
 
 .cover {
@@ -119,7 +117,7 @@ figure {
 }
 @media screen and (max-width: 768px) {
   .cover {
-    heifght: inherit;
+    height: inherit;
     padding: 3em 0;
   }
 }
@@ -132,7 +130,7 @@ figure {
 }
 @media screen and (max-width: 768px) {
   .cover.cover_2 {
-    heifght: inherit;
+    height: inherit;
     padding: 3em 0;
   }
 }
@@ -153,7 +151,7 @@ figure {
 .cover .desc h2 {
   color: #fff;
   text-transform: uppercase;
-  font-size: 60px;
+  font-size: 50px;
   margin-bottom: 10px;
   font-weight: 300 !important;
 }
@@ -302,7 +300,7 @@ figure {
   background-color: #0a0a0ae1;
   width: 100%;
   padding: 0;
-  border-bottom: 1px solid rgb(250, 1, 1);
+  border-bottom: 1px solid #e94848;
 }
 
 .nav-header {
@@ -349,7 +347,7 @@ figure {
 }
 
 #primary-menu > li > ul li.active > a {
-  color: #66D37E !important;
+  color: #e94848 !important;
 }
 #primary-menu > li > .sf-with-ul:after {
   border: none !important;
@@ -468,7 +466,7 @@ figure {
   background: none;
 }
 #primary-menu .sub-menu a:hover {
-  color: #66D37E !important;
+  color: #e94848 !important;
 }
 
 #sobre,
@@ -506,7 +504,7 @@ figure {
   width: 100px;
   margin-left: -50px;
   height: 2px;
-  background: #66D37E;
+  background: #e94848;
 }
 .heading-section h3 {
   font-size: 40px;
@@ -527,7 +525,7 @@ figure {
 }
 .feature-text h3 .number {
   margin-right: 5px;
-  color: #66D37E;
+  color: #e94848;
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
@@ -538,7 +536,7 @@ figure {
 }
 
 .services {
-  background: #66D37E;
+  background: #e94848;
   padding: 40px 20px 20px 20px;
   margin-bottom: 30px;
 }
@@ -588,7 +586,7 @@ figure {
   display: table-cell;
   vertical-align: middle;
   font-size: 40px;
-  color: #66D37E;
+  color: #e94848;
 }
 .feature-left .feature-copy {
   float: right;
@@ -825,7 +823,7 @@ figure {
 
 #services .number {
   font-size: 30px;
-  color: #66D37E;
+  color: #e94848;
   position: relative;
   padding-top: 10px;
   font-style: italic;
@@ -841,7 +839,7 @@ figure {
   height: 3px;
   top: 0;
   left: 0;
-  background: #66D37E;
+  background: #e94848;
 }
 #services .icon {
   margin-bottom: 30px;
@@ -860,7 +858,7 @@ figure {
 }
 #services .icon i {
   font-size: 200px;
-  color: #66D37E;
+  color: #e94848;
 }
 @media screen and (max-width: 768px) {
   #services .icon i {
@@ -1007,7 +1005,7 @@ figure {
   color: rgba(0, 0, 0, 0.3);
 }
 .blog .blog-text span.comment a i {
-  color: #66D37E;
+  color: #e94848;
   padding-left: 7px;
 }
 .blog .blog-text h3 {
@@ -1052,7 +1050,7 @@ figure {
 
 .social-icons > a {
   padding: 4px 10px;
-  color: #66D37E;
+  color: #e94848;
 }
 .social-icons > a i {
   font-size: 26px;
@@ -1063,7 +1061,7 @@ figure {
 }
 
 #footer {
-  background: #66D37E;
+  background: #e94848;
   padding: 60px 0 40px;
 }
 #footer p {
@@ -1091,14 +1089,14 @@ figure {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #66D37E;
+  background: #e94848;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #66D37E;
+  background: #e94848;
   color: #fff !important;
 }
 .btn:hover, .btn:active, .btn:focus {
@@ -1171,14 +1169,14 @@ figure {
   color: rgba(255, 255, 255, 0.4);
 }
 #offcanvas-menu ul li a:hover {
-  color: #66D37E;
+  color: #e94848;
 }
 #offcanvas-menu ul li > .sub-menu {
   margin-top: 9px;
   padding-left: 20px;
 }
 #offcanvas-menu ul li.active > a {
-  color: #66D37E;
+  color: #e94848;
 }
 #offcanvas-menu ul .sub-menu {
   display: block !important;

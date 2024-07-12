@@ -3391,7 +3391,7 @@ img.u-pull-left {
  * -------------------------------------------------------------------- */
 .s-intro__bg {
     display             : block;
-    background-image    : url(../images/hero-bg.jpg);
+    background-image    : url(../images/fundo2.jpg);
     background-repeat   : no-repeat;
     background-position : center;
     background-size     : cover;
@@ -3450,7 +3450,7 @@ img.u-pull-left {
 
 .s-intro__content-bg {
     display             : block;
-    background-image    : url(../images/intro-bg.jpg);
+    background-image    : url(../images/fundo1.jpg);
     background-repeat   : no-repeat;
     background-position : center;
     background-size     : cover;
@@ -3460,6 +3460,7 @@ img.u-pull-left {
     right               : var(--gutter);
     bottom              : var(--content-padding-bottom);
     left                : auto;
+    filter: brightness(0.5);
 }
 
 .s-intro__content-bg::before {
@@ -3478,7 +3479,7 @@ img.u-pull-left {
 }
 
 .s-intro__content-title {
-    --text-title-size : 8rem;
+    --text-title-size : 7rem;
     --text-multiplier : 1;
     font-weight       : 600;
     font-size         : calc(var(--text-title-size) * var(--text-multiplier));

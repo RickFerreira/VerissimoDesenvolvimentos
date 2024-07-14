@@ -1,8 +1,7 @@
 @charset "UTF-8";
 /* =================================================================== 
- * Mueller Main Stylesheet
+ * Richard Salviano
  * Template Ver. 1.0.0
- * 06-21-2022
  * ------------------------------------------------------------------
  *
  * TOC:
@@ -2913,16 +2912,16 @@ img.u-pull-left {
     display          : flex;
     align-items      : center;
     justify-content  : center;
-    height           : var(--vspace-1_75);
-    width            : var(--vspace-1_75);
+    height           : 100px;
+    width            : 100px;
     border-radius    : 50%;
     background-color : var(--color-gray-6);
     margin-bottom    : var(--vspace-0_25);
 }
 
 .list-block__icon svg {
-    height : var(--vspace-0_875);
-    width  : var(--vspace-0_875);
+    height : 48px;
+    width  : 48px;
 }
 
 .list-block__icon svg path,
@@ -4363,10 +4362,6 @@ img.u-pull-left {
 
     .s-testimonials__slide {
         text-align : center;
-    }
-
-    .s-testimonials__cite {
-        text-align : left;
     }
 }
 

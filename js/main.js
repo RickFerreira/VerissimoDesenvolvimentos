@@ -209,7 +209,7 @@
                 },
                 // when window width is > 1180px
                 1181: {
-                    slidesPerView: 2,
+                    slidesPerView: 3,
                     spaceBetween: 100
                 }
             }
